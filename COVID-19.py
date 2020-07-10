@@ -8,7 +8,7 @@ import warnings
 
 st.title("INDIA COVID-19")
 st.markdown("A small analysis about the number of COVID-19 confirmed cases,deaths and cured count in INDIA using streamlit and python!!")
-DATA=("C:\\nivipython\\COVID-DATASET.csv")
+DATA=("COVID-DATASET.csv")
 @st.cache(persist=True)
 @st.cache(allow_output_mutation=True)
 #LOAD DATA
